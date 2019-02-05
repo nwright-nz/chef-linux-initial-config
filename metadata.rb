@@ -4,7 +4,7 @@ maintainer_email 'nigel.wright@dimensiondata.com'
 license 'Apache 2.0'
 description 'Initial config for linux machines'
 long_description 'Hardens os as per DevSec linux baseline, and installs the public ssh certificate'
-version '0.1.2
+version '0.1.2'
 chef_version '>= 13.0'
 depends 'vaultssh_bootstrap'
 depends 'os-hardening'
