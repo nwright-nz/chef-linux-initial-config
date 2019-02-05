@@ -7,6 +7,7 @@ long_description 'Hardens os as per DevSec linux baseline, and installs the publ
 version '0.1.1'
 chef_version '>= 13.0'
 depends 'vaultssh_bootstrap'
+depends 'os-hardening'
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
